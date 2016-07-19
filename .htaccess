@@ -1,0 +1,4 @@
+  <FilesMatch "\.(log|bak|txt|sql|lok|sqlite3)$">
+   Order Deny,Allow
+   Deny from All
+  </FilesMatch>
